@@ -1,0 +1,24 @@
+{
+  "included_uploaded_files": [
+    "library.db",
+    "README.md",
+    "app.py",
+    "settings.json",
+    "tasks.json",
+    "app.js",
+    "test_api.py",
+    "test_services.py",
+    "requirements(1).txt -> requirements.txt"
+  ],
+  "added": [
+    "api/index.py",
+    "vercel.json",
+    "VERCEL_DEPLOY.md"
+  ],
+  "expected_but_not_uploaded": [
+    "library/ Python package (database.py, seed.py, services.py, etc.)",
+    "static/index.html",
+    "static/css/styles.css"
+  ],
+  "note": "This is a Vercel deployment scaffold, not verified as fully deployable because core source folders were not uploaded."
+}
